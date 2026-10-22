@@ -1,7 +1,7 @@
 'use strict';
 
 const CACHE_PREFIX = 'finova-app-shell-';
-const CACHE_NAME = `${CACHE_PREFIX}v2`;
+const CACHE_NAME = `${CACHE_PREFIX}v3`;
 const BASE_URL = new URL('./', self.registration.scope);
 const INDEX_URL = new URL('index.html', BASE_URL).href;
 const SHELL_URLS = [
